@@ -15,7 +15,7 @@ vec2 normalVector(vec2 a) {
     return result;
 }
 
-float dotProduct(vec2 a, vec2 b) {
+double dotProduct(vec2 a, vec2 b) {
     return a.x * b.x + a.y * b.y;
 }
 
@@ -26,7 +26,7 @@ vec2 negate(vec2 a) {
     return result;
 }
 
-float lengthSquared(vec2 a) {
+double lengthSquared(vec2 a) {
     return a.x * a.x + a.y * a.y;
 }
 

@@ -2,8 +2,8 @@
 #define VEC2_H
 
 struct Vec2 {
-    float x;
-    float y;
+    double x;
+    double y;
 };
 
 typedef struct Vec2 vec2;
@@ -12,11 +12,11 @@ vec2 substract(vec2 a, vec2 b);
 
 vec2 normalVector(vec2 a);
 
-float dotProduct(vec2 a, vec2 b);
+double dotProduct(vec2 a, vec2 b);
 
 vec2 negate(vec2 a);
 
-float lengthSquared(vec2 a);
+double lengthSquared(vec2 a);
 
 vec2 tripleProduct(vec2 a, vec2 b, vec2 c);
 #endif
